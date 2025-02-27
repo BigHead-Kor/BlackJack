@@ -20,3 +20,4 @@
 
 ✅ 확률 분석 (통계 기반 승률 계산)
 
+<img width="337" alt="image" src="https://github.com/user-attachments/assets/665db87c-b9b9-4b0b-ac70-15e4ca8dbc54" />
