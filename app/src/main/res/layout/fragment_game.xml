@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 목표 금액 표시 -->
+    <TextView
+        android:id="@+id/tvGoalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="목표 금액:(목표 달성 시 당신의 인생을 위해 자동 제명 됩니다)"
+        android:textSize="18sp" />
+
+    <!-- 목표 금액 입력 -->
+    <EditText
+        android:id="@+id/etGoalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="목표 금액 입력"
+        android:inputType="number"
+        android:visibility="gone" />
+
+    <!-- 목표 금액 저장 버튼 -->
+    <Button
+        android:id="@+id/btnSaveGoalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="목표 금액 저장"
+        android:visibility="gone" />
+
+    <!-- 게임 시작 버튼 -->
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="게임 시작"
+        android:textSize="24sp" />
+
+    <!-- 게임 결과 표시 -->
+    <TextView
+        android:id="@+id/tvGameResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="결과가 여기에 표시됩니다."
+        android:textSize="20sp"
+        android:paddingTop="16dp" />
+
+    <!-- 보유 금액 표시 -->
+    <TextView
+        android:id="@+id/tvTotalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재 금액: $1000"
+        android:textSize="18sp"
+        android:paddingTop="8dp" />
+
+    <!-- 배팅 금액 입력 -->
+    <EditText
+        android:id="@+id/etBetAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="배팅 금액 입력"
+        android:inputType="number"
+        android:layout_marginTop="8dp" />
+
+    <!-- 승리, 패배, 무승부 횟수 표시 -->
+    <TextView
+        android:id="@+id/tvStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="승리: 0 | 패배: 0 | 무승부: 0"
+        android:textSize="16sp"
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/btnExitCasino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나 그만할래요"
+        android:textSize="18sp" />
+</LinearLayout>

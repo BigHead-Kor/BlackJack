@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Username"/>
+
+    <TextView
+        android:id="@+id/tvNetProfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Net Profit"/>
+
+    <TextView
+        android:id="@+id/tvBankruptcies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Bankruptcies"/>
+
+    <TextView
+        android:id="@+id/tvTotalGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="총 게임 횟수: 0"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/tvWinRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Win Rate"/>
+
+    <TextView
+        android:id="@+id/tvGoalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Goal Amount"/>
+
+</LinearLayout>
